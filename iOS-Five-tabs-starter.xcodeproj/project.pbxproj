@@ -110,8 +110,8 @@
 		D9BEA83E1C6D03F70018E07A /* iOS-Five-tabs-starterTests */ = {
 			isa = PBXGroup;
 			children = (
-				D9BEA83F1C6D03F70018E07A /* iOS_Five_tabs_starterTests.swift */,
 				D9BEA8411C6D03F70018E07A /* Info.plist */,
+				D9BEA83F1C6D03F70018E07A /* iOS_Five_tabs_starterTests.swift */,
 			);
 			path = "iOS-Five-tabs-starterTests";
 			sourceTree = "<group>";
@@ -484,6 +484,7 @@
 				D9BEA8511C6D03F70018E07A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9BEA8521C6D03F70018E07A /* Build configuration list for PBXNativeTarget "iOS-Five-tabs-starterTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				D9BEA8541C6D03F70018E07A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9BEA8551C6D03F70018E07A /* Build configuration list for PBXNativeTarget "iOS-Five-tabs-starterUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				D9BEA8571C6D03F70018E07A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
