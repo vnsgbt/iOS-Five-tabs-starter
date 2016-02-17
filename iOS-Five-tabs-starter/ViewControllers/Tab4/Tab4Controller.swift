@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  Tab4Controller.swift
 //  iOS-Five-tabs-starter
 //
 //  Created by dev2 on 2/11/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class Tab4Controller: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
