@@ -53,23 +53,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window!.tintColor = UIColor.tabTintColor()
         
         // Nav Title
-        
-        let shade: NSShadow = {
-            let shadow = NSShadow()
-            shadow.shadowColor = UIColor.lightGrayColor()
-            shadow.shadowOffset = CGSizeMake(0, 0)
-            return shadow
-        }()
-        
-        let textAttributes = [
+                
+        UINavigationBar.appearance().titleTextAttributes = [
             NSForegroundColorAttributeName: UIColor.tabTintColor(),
-            NSShadowAttributeName: shade,
+            NSShadowAttributeName: {
+                let shadow = NSShadow()
+                shadow.shadowColor = UIColor.lightGrayColor()
+                shadow.shadowOffset = CGSizeMake(0, 0)
+                return shadow
+            }(),
             NSFontAttributeName: UIFont(name: "HelveticaNeue-CondensedBlack", size: 30)!
-        ]
-        
-        UINavigationBar.appearance().titleTextAttributes = textAttributes;
-        
+        ];
     }
-
 }
-
