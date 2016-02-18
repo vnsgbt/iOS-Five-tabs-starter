@@ -6,4 +6,11 @@
 //  Copyright © 2016 vnsgbt. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UIColor {
+    class func tabTintColor() -> UIColor {
+        return UIColor(red: 40/255.0, green: 150/255.0, blue: 230/255.0, alpha: 1.0)
+    }
+}
+

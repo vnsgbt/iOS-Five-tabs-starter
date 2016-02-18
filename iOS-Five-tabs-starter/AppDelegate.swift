@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        customEntry()
+        
         return true
     }
 
@@ -41,6 +44,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    // MARK: Private
+    
+    private func customEntry() {
+        
+        // Global tint color
+        
+        window!.tintColor = UIColor.tabTintColor()
+        
+        // Nav Title
+        
+        let shade: NSShadow = {
+            let shadow = NSShadow()
+            shadow.shadowColor = UIColor.lightGrayColor()
+            shadow.shadowOffset = CGSizeMake(0, 0)
+            return shadow
+        }()
+        
+        let textAttributes = [
+            NSForegroundColorAttributeName: UIColor.tabTintColor(),
+            NSShadowAttributeName: shade,
+            NSFontAttributeName: UIFont(name: "HelveticaNeue-CondensedBlack", size: 30)!
+        ]
+        
+        UINavigationBar.appearance().titleTextAttributes = textAttributes;
+        
+    }
 
 }
 

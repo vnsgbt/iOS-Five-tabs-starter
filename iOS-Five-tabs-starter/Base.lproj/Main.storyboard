@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Tab1-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOS_Five_tabs_starter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="Tab1ViewController" customModule="iOS_Five_tabs_starter" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -18,17 +18,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="gOG-8O-jHg"/>
+                    <navigationItem key="navigationItem" title="Tab1" id="gOG-8O-jHg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1118" y="-503"/>
+            <point key="canvasLocation" x="-1030" y="-615"/>
         </scene>
-        <!--View Controller-->
+        <!--Tab2-->
         <scene sceneID="Kzn-dU-5Pj">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LLq-oM-tgA" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="5yS-Qi-V94" sceneMemberID="viewController">
+                <viewController id="5yS-Qi-V94" customClass="Tab2ViewController" customModule="iOS_Five_tabs_starter" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kg4-rb-thS"/>
                         <viewControllerLayoutGuide type="bottom" id="ChY-WY-Jy3"/>
@@ -38,16 +37,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="t4V-mg-Nhe"/>
+                    <navigationItem key="navigationItem" title="Tab2" id="t4V-mg-Nhe"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LLq-oM-tgA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="435" y="-478"/>
+            <point key="canvasLocation" x="-417" y="-514"/>
         </scene>
-        <!--View Controller-->
+        <!--Tab3-->
         <scene sceneID="BTS-E4-PdZ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oZy-J2-wlT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="WVT-Wj-163" sceneMemberID="viewController">
+                <viewController id="WVT-Wj-163" customClass="Tab3ViewController" customModule="iOS_Five_tabs_starter" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WFM-oO-gYv"/>
                         <viewControllerLayoutGuide type="bottom" id="x7N-rZ-YR7"/>
@@ -57,16 +56,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="mWt-rc-2IJ"/>
+                    <navigationItem key="navigationItem" title="Tab3" id="mWt-rc-2IJ"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oZy-J2-wlT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1963" y="-430"/>
+            <point key="canvasLocation" x="283" y="-514"/>
         </scene>
-        <!--View Controller-->
+        <!--Tab4-->
         <scene sceneID="MmQ-YC-BWH">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Bf3-Yo-hai" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="JvO-h8-mIp" sceneMemberID="viewController">
+                <viewController id="JvO-h8-mIp" customClass="Tab4ViewController" customModule="iOS_Five_tabs_starter" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OUP-ca-Y0E"/>
                         <viewControllerLayoutGuide type="bottom" id="8Qn-Oe-BTU"/>
@@ -76,10 +75,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="heN-1l-EQi"/>
+                    <navigationItem key="navigationItem" title="Tab4" id="heN-1l-EQi"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bf3-Yo-hai" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-347" y="-498"/>
+            <point key="canvasLocation" x="969" y="-722"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="NDi-Nu-jar">
@@ -102,11 +102,10 @@
             </objects>
             <point key="canvasLocation" x="283" y="-2113"/>
         </scene>
-        <!--View Controller-->
+        <!--Tab5-->
         <scene sceneID="YYl-Eg-a5k">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5j9-2E-64M" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="YUt-q6-57t" sceneMemberID="viewController">
+                <viewController id="YUt-q6-57t" customClass="Tab5ViewController" customModule="iOS_Five_tabs_starter" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="otV-UF-DVf"/>
                         <viewControllerLayoutGuide type="bottom" id="udw-CL-omA"/>
@@ -116,10 +115,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="4Hy-fk-fzJ"/>
+                    <navigationItem key="navigationItem" title="Tab5" id="4Hy-fk-fzJ"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5j9-2E-64M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1185" y="-503"/>
+            <point key="canvasLocation" x="1789" y="-1499"/>
         </scene>
         <!--Tab 1-->
         <scene sceneID="5Bu-ac-oUl">
@@ -157,7 +157,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4dW-uB-Pe5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-335" y="-1282"/>
+            <point key="canvasLocation" x="969" y="-1466"/>
         </scene>
         <!--Tab 2-->
         <scene sceneID="p4R-OG-o1R">
@@ -176,7 +176,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xRh-fb-B6s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="435" y="-1254"/>
+            <point key="canvasLocation" x="-417" y="-1278"/>
         </scene>
         <!--Tab 5-->
         <scene sceneID="2ob-Ps-yh8">
@@ -195,7 +195,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jwc-0n-bWo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1165" y="-1254"/>
+            <point key="canvasLocation" x="1789" y="-2262"/>
         </scene>
         <!--Tab 3-->
         <scene sceneID="e7S-eA-idI">
@@ -214,7 +214,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SCw-cK-1HO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1963" y="-1270"/>
+            <point key="canvasLocation" x="283" y="-1246"/>
         </scene>
     </scenes>
 </document>

@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D94BEF951C763E3A00CFED28 /* Tab1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94BEF941C763E3A00CFED28 /* Tab1ViewController.swift */; };
+		D94BEF971C763F0100CFED28 /* Tab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94BEF961C763F0100CFED28 /* Tab2ViewController.swift */; };
+		D94BEF991C763F0A00CFED28 /* Tab3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94BEF981C763F0A00CFED28 /* Tab3ViewController.swift */; };
+		D94BEF9B1C763F1400CFED28 /* Tab4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94BEF9A1C763F1400CFED28 /* Tab4ViewController.swift */; };
+		D94BEF9D1C763F1F00CFED28 /* Tab5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94BEF9C1C763F1F00CFED28 /* Tab5ViewController.swift */; };
+		D94BEFA61C76471400CFED28 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94BEFA51C76471400CFED28 /* ActionViewController.swift */; };
+		D94BEFA91C76471400CFED28 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D94BEFA71C76471400CFED28 /* MainInterface.storyboard */; };
+		D94BEFB31C76479900CFED28 /* UIColor+Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94BEFB21C76479900CFED28 /* UIColor+Tabs.swift */; };
 		D9BEA82B1C6D03F70018E07A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BEA82A1C6D03F70018E07A /* AppDelegate.swift */; };
-		D9BEA82D1C6D03F70018E07A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BEA82C1C6D03F70018E07A /* ViewController.swift */; };
 		D9BEA8301C6D03F70018E07A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BEA82E1C6D03F70018E07A /* Main.storyboard */; };
 		D9BEA8321C6D03F70018E07A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9BEA8311C6D03F70018E07A /* Assets.xcassets */; };
 		D9BEA8351C6D03F70018E07A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BEA8331C6D03F70018E07A /* LaunchScreen.storyboard */; };
@@ -17,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D94BEFAB1C76471400CFED28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9BEA81F1C6D03F70018E07A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D94BEFA21C76471400CFED28;
+			remoteInfo = FiveTabs;
+		};
 		D9BEA83C1C6D03F70018E07A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D9BEA81F1C6D03F70018E07A /* Project object */;
@@ -33,23 +47,52 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D94BEFB11C76471400CFED28 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		D9BEA8271C6D03F70018E07A /* iOS-Five-tabs-starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Five-tabs-starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D94BEF941C763E3A00CFED28 /* Tab1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1ViewController.swift; sourceTree = "<group>"; };
+		D94BEF961C763F0100CFED28 /* Tab2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2ViewController.swift; sourceTree = "<group>"; };
+		D94BEF981C763F0A00CFED28 /* Tab3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab3ViewController.swift; sourceTree = "<group>"; };
+		D94BEF9A1C763F1400CFED28 /* Tab4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab4ViewController.swift; sourceTree = "<group>"; };
+		D94BEF9C1C763F1F00CFED28 /* Tab5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab5ViewController.swift; sourceTree = "<group>"; };
+		D94BEFA31C76471400CFED28 /* FiveTabs.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; name = FiveTabs.appex; path = "/Users/Shared/dev/iOS-Five-tabs-starter/build/Debug-iphoneos/FiveTabs.appex"; sourceTree = "<absolute>"; };
+		D94BEFA51C76471400CFED28 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		D94BEFA81C76471400CFED28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		D94BEFAA1C76471400CFED28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D94BEFB21C76479900CFED28 /* UIColor+Tabs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Tabs.swift"; sourceTree = "<group>"; };
+		D9BEA8271C6D03F70018E07A /* iOS-Five-tabs-starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "iOS-Five-tabs-starter.app"; path = "/Users/Shared/dev/iOS-Five-tabs-starter/build/Debug-iphoneos/iOS-Five-tabs-starter.app"; sourceTree = "<absolute>"; };
 		D9BEA82A1C6D03F70018E07A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9BEA82C1C6D03F70018E07A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D9BEA82F1C6D03F70018E07A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9BEA8311C6D03F70018E07A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9BEA8341C6D03F70018E07A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9BEA8361C6D03F70018E07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9BEA83B1C6D03F70018E07A /* iOS-Five-tabs-starterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Five-tabs-starterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BEA83B1C6D03F70018E07A /* iOS-Five-tabs-starterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "iOS-Five-tabs-starterTests.xctest"; path = "/Users/Shared/dev/iOS-Five-tabs-starter/build/Debug-iphoneos/iOS-Five-tabs-starterTests.xctest"; sourceTree = "<absolute>"; };
 		D9BEA83F1C6D03F70018E07A /* iOS_Five_tabs_starterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Five_tabs_starterTests.swift; sourceTree = "<group>"; };
 		D9BEA8411C6D03F70018E07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9BEA8461C6D03F70018E07A /* iOS-Five-tabs-starterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Five-tabs-starterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BEA8461C6D03F70018E07A /* iOS-Five-tabs-starterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "iOS-Five-tabs-starterUITests.xctest"; path = "/Users/Shared/dev/iOS-Five-tabs-starter/build/Debug-iphoneos/iOS-Five-tabs-starterUITests.xctest"; sourceTree = "<absolute>"; };
 		D9BEA84A1C6D03F70018E07A /* iOS_Five_tabs_starterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Five_tabs_starterUITests.swift; sourceTree = "<group>"; };
 		D9BEA84C1C6D03F70018E07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D94BEFA01C76471400CFED28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9BEA8241C6D03F70018E07A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,31 +117,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D94BEF811C763C6F00CFED28 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D94BEF891C763D4A00CFED28 /* Tab5 */,
+				D94BEF881C763D4100CFED28 /* Tab4 */,
+				D94BEF871C763D3800CFED28 /* Tab3 */,
+				D94BEF861C763D3000CFED28 /* Tab2 */,
+				D94BEF841C763D0F00CFED28 /* Tab1 */,
+			);
+			name = ViewControllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D94BEF841C763D0F00CFED28 /* Tab1 */ = {
+			isa = PBXGroup;
+			children = (
+				D94BEF941C763E3A00CFED28 /* Tab1ViewController.swift */,
+			);
+			name = Tab1;
+			sourceTree = "<group>";
+		};
+		D94BEF861C763D3000CFED28 /* Tab2 */ = {
+			isa = PBXGroup;
+			children = (
+				D94BEF961C763F0100CFED28 /* Tab2ViewController.swift */,
+			);
+			name = Tab2;
+			sourceTree = "<group>";
+		};
+		D94BEF871C763D3800CFED28 /* Tab3 */ = {
+			isa = PBXGroup;
+			children = (
+				D94BEF981C763F0A00CFED28 /* Tab3ViewController.swift */,
+			);
+			name = Tab3;
+			sourceTree = "<group>";
+		};
+		D94BEF881C763D4100CFED28 /* Tab4 */ = {
+			isa = PBXGroup;
+			children = (
+				D94BEF9A1C763F1400CFED28 /* Tab4ViewController.swift */,
+			);
+			name = Tab4;
+			sourceTree = "<group>";
+		};
+		D94BEF891C763D4A00CFED28 /* Tab5 */ = {
+			isa = PBXGroup;
+			children = (
+				D94BEF9C1C763F1F00CFED28 /* Tab5ViewController.swift */,
+			);
+			name = Tab5;
+			sourceTree = "<group>";
+		};
+		D94BEF9E1C76463C00CFED28 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D94BEFB21C76479900CFED28 /* UIColor+Tabs.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		D94BEFA41C76471400CFED28 /* FiveTabs */ = {
+			isa = PBXGroup;
+			children = (
+				D94BEFA51C76471400CFED28 /* ActionViewController.swift */,
+				D94BEFA71C76471400CFED28 /* MainInterface.storyboard */,
+				D94BEFAA1C76471400CFED28 /* Info.plist */,
+			);
+			path = FiveTabs;
+			sourceTree = "<group>";
+		};
 		D9BEA81E1C6D03F70018E07A = {
 			isa = PBXGroup;
 			children = (
 				D9BEA8291C6D03F70018E07A /* iOS-Five-tabs-starter */,
 				D9BEA83E1C6D03F70018E07A /* iOS-Five-tabs-starterTests */,
 				D9BEA8491C6D03F70018E07A /* iOS-Five-tabs-starterUITests */,
-				D9BEA8281C6D03F70018E07A /* Products */,
+				D94BEFA41C76471400CFED28 /* FiveTabs */,
 			);
-			sourceTree = "<group>";
-		};
-		D9BEA8281C6D03F70018E07A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D9BEA8271C6D03F70018E07A /* iOS-Five-tabs-starter.app */,
-				D9BEA83B1C6D03F70018E07A /* iOS-Five-tabs-starterTests.xctest */,
-				D9BEA8461C6D03F70018E07A /* iOS-Five-tabs-starterUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D9BEA8291C6D03F70018E07A /* iOS-Five-tabs-starter */ = {
 			isa = PBXGroup;
 			children = (
+				D94BEF9E1C76463C00CFED28 /* Extensions */,
+				D94BEF811C763C6F00CFED28 /* ViewControllers */,
 				D9BEA82A1C6D03F70018E07A /* AppDelegate.swift */,
-				D9BEA82C1C6D03F70018E07A /* ViewController.swift */,
 				D9BEA82E1C6D03F70018E07A /* Main.storyboard */,
 				D9BEA8311C6D03F70018E07A /* Assets.xcassets */,
 				D9BEA8331C6D03F70018E07A /* LaunchScreen.storyboard */,
@@ -128,6 +233,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D94BEFA21C76471400CFED28 /* FiveTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D94BEFAE1C76471400CFED28 /* Build configuration list for PBXNativeTarget "FiveTabs" */;
+			buildPhases = (
+				D94BEF9F1C76471400CFED28 /* Sources */,
+				D94BEFA01C76471400CFED28 /* Frameworks */,
+				D94BEFA11C76471400CFED28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FiveTabs;
+			productName = FiveTabs;
+			productReference = D94BEFA31C76471400CFED28 /* FiveTabs.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		D9BEA8261C6D03F70018E07A /* iOS-Five-tabs-starter */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9BEA84F1C6D03F70018E07A /* Build configuration list for PBXNativeTarget "iOS-Five-tabs-starter" */;
@@ -135,10 +257,12 @@
 				D9BEA8231C6D03F70018E07A /* Sources */,
 				D9BEA8241C6D03F70018E07A /* Frameworks */,
 				D9BEA8251C6D03F70018E07A /* Resources */,
+				D94BEFB11C76471400CFED28 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D94BEFAC1C76471400CFED28 /* PBXTargetDependency */,
 			);
 			name = "iOS-Five-tabs-starter";
 			productName = "iOS-Five-tabs-starter";
@@ -191,6 +315,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = vnsgbt;
 				TargetAttributes = {
+					D94BEFA21C76471400CFED28 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					D9BEA8261C6D03F70018E07A = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -213,18 +340,27 @@
 				Base,
 			);
 			mainGroup = D9BEA81E1C6D03F70018E07A;
-			productRefGroup = D9BEA8281C6D03F70018E07A /* Products */;
+			productRefGroup = D9BEA81E1C6D03F70018E07A;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D9BEA8261C6D03F70018E07A /* iOS-Five-tabs-starter */,
 				D9BEA83A1C6D03F70018E07A /* iOS-Five-tabs-starterTests */,
 				D9BEA8451C6D03F70018E07A /* iOS-Five-tabs-starterUITests */,
+				D94BEFA21C76471400CFED28 /* FiveTabs */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D94BEFA11C76471400CFED28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94BEFA91C76471400CFED28 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9BEA8251C6D03F70018E07A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,12 +388,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D94BEF9F1C76471400CFED28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94BEFA61C76471400CFED28 /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9BEA8231C6D03F70018E07A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9BEA82D1C6D03F70018E07A /* ViewController.swift in Sources */,
+				D94BEF9D1C763F1F00CFED28 /* Tab5ViewController.swift in Sources */,
+				D94BEF991C763F0A00CFED28 /* Tab3ViewController.swift in Sources */,
+				D94BEFB31C76479900CFED28 /* UIColor+Tabs.swift in Sources */,
+				D94BEF951C763E3A00CFED28 /* Tab1ViewController.swift in Sources */,
+				D94BEF9B1C763F1400CFED28 /* Tab4ViewController.swift in Sources */,
 				D9BEA82B1C6D03F70018E07A /* AppDelegate.swift in Sources */,
+				D94BEF971C763F0100CFED28 /* Tab2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +429,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D94BEFAC1C76471400CFED28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D94BEFA21C76471400CFED28 /* FiveTabs */;
+			targetProxy = D94BEFAB1C76471400CFED28 /* PBXContainerItemProxy */;
+		};
 		D9BEA83D1C6D03F70018E07A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D9BEA8261C6D03F70018E07A /* iOS-Five-tabs-starter */;
@@ -293,6 +447,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D94BEFA71C76471400CFED28 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D94BEFA81C76471400CFED28 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		D9BEA82E1C6D03F70018E07A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -312,6 +474,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D94BEFAF1C76471400CFED28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FiveTabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.vnsgbt.iOS-Five-tabs-starter.FiveTabs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D94BEFB01C76471400CFED28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FiveTabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.vnsgbt.iOS-Five-tabs-starter.FiveTabs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		D9BEA84D1C6D03F70018E07A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -399,6 +583,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "iOS-Five-tabs-starter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.vnsgbt.iOS-Five-tabs-starter";
@@ -410,6 +595,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "iOS-Five-tabs-starter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.vnsgbt.iOS-Five-tabs-starter";
@@ -468,6 +654,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D94BEFAE1C76471400CFED28 /* Build configuration list for PBXNativeTarget "FiveTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D94BEFAF1C76471400CFED28 /* Debug */,
+				D94BEFB01C76471400CFED28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D9BEA8221C6D03F70018E07A /* Build configuration list for PBXProject "iOS-Five-tabs-starter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

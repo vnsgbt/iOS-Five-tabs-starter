@@ -14,6 +14,8 @@ class Tab3ViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        view.backgroundColor = UIColor.greenColor();
+
     }
 
     override func didReceiveMemoryWarning() {

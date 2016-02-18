@@ -14,6 +14,7 @@ class Tab1ViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        view.backgroundColor = UIColor.yellowColor();
     }
 
     override func didReceiveMemoryWarning() {
